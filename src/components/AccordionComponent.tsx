@@ -80,7 +80,7 @@ export default function Accordion({children, titleView}: AccordionProps) {
 
   return (
     <View style={styles.accordionContainer}>
-      <Pressable onPress={() => setIsOpened(!isOpened)}>
+      <Pressable hitSlop={8} onPress={() => setIsOpened(!isOpened)}>
         <Animated.View
           style={[
             styles.triangle,
