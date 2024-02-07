@@ -1,7 +1,7 @@
 import React from 'react';
 import {SafeAreaView} from 'react-native';
 import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
-import PortfolioScreen from './src/screens/Portfolio';
+import PortfolioScreen from './src/screens/portfolio';
 
 const queryClient = new QueryClient();
 
